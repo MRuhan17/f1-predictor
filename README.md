@@ -32,33 +32,35 @@ All components are modular and reproducible in **GitHub Codespaces** or locally.
 
 ## 📂 Repository Structure
 
+```text
 f1-predictor/
 │
-├── src/ # Source code for the F1 predictor
-│ ├── init.py # Package initializer
-│ ├── data_loader.py # Fetches and stores race results
-│ ├── feature_engineering.py # Builds driver/team performance features
-│ ├── model_training.py # Trains XGBoost model on engineered data
-│ ├── simulation.py # Monte Carlo simulation for championship standings
-│ └── utils.py # Utility functions (I/O, data checks, helpers)
+├── src/                                # Source code for the F1 predictor
+│   ├── __init__.py                     # Package initializer
+│   ├── data_loader.py                  # Fetches and stores race results
+│   ├── feature_engineering.py          # Builds driver/team performance features
+│   ├── model_training.py               # Trains XGBoost model on engineered data
+│   ├── simulation.py                   # Monte Carlo simulation for championship standings
+│   └── utils.py                        # Utility functions (I/O, data checks, helpers)
 │
-├── data/ # Local datasets and model outputs
-│ ├── race_results_2024.csv # Sample raw race data (API or offline)
-│ ├── features_2024.csv # Engineered features for training
-│ ├── simulated_standings_2025.csv # Simulated driver standings
-│ └── xgb_model.joblib # Trained model file (generated automatically)
+├── data/                               # Local datasets and model outputs
+│   ├── race_results_2024.csv           # Sample raw race data (API or offline)
+│   ├── features_2024.csv               # Engineered features for training
+│   ├── simulated_standings_2025.csv    # Simulated driver standings
+│   └── xgb_model.joblib                # Trained model file (generated automatically)
 │
-├── notebooks/ # Jupyter notebooks for exploration and visualization
-│ └── exploration.ipynb # Interactive analysis and visualizations
+├── notebooks/                          # Jupyter notebooks for exploration and visualization
+│   └── exploration.ipynb               # Interactive analysis and visualizations
 │
-├── tests/ # Automated tests to ensure functionality
-│ └── test_model.py # Unit tests for feature building and model training
+├── tests/                              # Automated tests to ensure functionality
+│   └── test_model.py                   # Unit tests for feature building and model training
 │
-├── .gitignore # Git ignore rules (keeps repo clean)
-├── LICENSE # Apache 2.0 license
-├── README.md # Project documentation (you’re reading it!)
-├── requirements.txt # Python dependencies
-└── NOTICE # Optional credits and notices
+├── .gitignore                          # Git ignore rules (keeps repo clean)
+├── LICENSE                             # Apache 2.0 license
+├── README.md                           # Project documentation (you’re reading it!)
+├── requirements.txt                    # Python dependencies
+└── NOTICE                              # Optional credits and notices
+
 
 ## ⚙️ Installation
 
