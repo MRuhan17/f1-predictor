@@ -142,13 +142,13 @@ Introduce track-specific performance modifiers
 📜 License
 
 This project is licensed under the Apache License 2.0
-.
+
 
 👨‍💻 Author
 Ruhulalemeen Mulla
 Machine Learning Enthusiast | F1 Analytics Developer
 
 
-📧 your.email@example.com
+📧 ruhanmulla07@gmail.com
 
 🌐 github.com/YOUR_USERNAME
