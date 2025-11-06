@@ -30,33 +30,35 @@ All components are modular and reproducible in **GitHub Codespaces** or locally.
 
 ---
 
-## 📂 Repository structure
+## 📂 Repository Structure
 
 f1-predictor/
 │
-├── src/
-│ ├── data_loader.py # Fetches raw race results
-│ ├── feature_engineering.py # Builds driver/team features
-│ ├── model_training.py # Trains XGBoost model
-│ ├── simulation.py # Monte Carlo season simulation
-│ ├── utils.py # Helper functions
-│ └── init.py
+├── src/ # Source code for the F1 predictor
+│ ├── init.py # Package initializer
+│ ├── data_loader.py # Fetches and stores race results
+│ ├── feature_engineering.py # Builds driver/team performance features
+│ ├── model_training.py # Trains XGBoost model on engineered data
+│ ├── simulation.py # Monte Carlo simulation for championship standings
+│ └── utils.py # Utility functions (I/O, data checks, helpers)
 │
-├── data/
-│ ├── race_results_2024.csv # Sample raw race results
-│ ├── features_2024.csv # Engineered features
-│ └── simulated_standings_2025.csv # Simulated championship results
+├── data/ # Local datasets and model outputs
+│ ├── race_results_2024.csv # Sample raw race data (API or offline)
+│ ├── features_2024.csv # Engineered features for training
+│ ├── simulated_standings_2025.csv # Simulated driver standings
+│ └── xgb_model.joblib # Trained model file (generated automatically)
 │
-├── notebooks/
-│ └── exploration.ipynb # Visual exploration notebook
+├── notebooks/ # Jupyter notebooks for exploration and visualization
+│ └── exploration.ipynb # Interactive analysis and visualizations
 │
-├── tests/
-│ └── test_model.py # Unit tests for model pipeline
+├── tests/ # Automated tests to ensure functionality
+│ └── test_model.py # Unit tests for feature building and model training
 │
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
+├── .gitignore # Git ignore rules (keeps repo clean)
+├── LICENSE # Apache 2.0 license
+├── README.md # Project documentation (you’re reading it!)
+├── requirements.txt # Python dependencies
+└── NOTICE # Optional credits and notices
 
 ---
 
