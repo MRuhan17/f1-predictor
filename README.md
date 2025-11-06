@@ -61,7 +61,7 @@ f1-predictor/
 ├── requirements.txt                    # Python dependencies
 └── NOTICE                              # Optional credits and notices
 
-
+```
 ## ⚙️ Installation
 
 ### Option 1 — Run in **GitHub Codespaces** (recommended)
