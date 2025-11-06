@@ -154,4 +154,3 @@ Machine Learning Enthusiast | F1 Analytics Developer
 
 📧 ruhanmulla07@gmail.com
 
-🌐 github.com/MRuhan17
