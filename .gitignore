@@ -1,0 +1,59 @@
+# ===============================
+# Python project .gitignore
+# Formula 1 Predictor Repository
+# ===============================
+
+# ---- Python cache / compiled files ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# ---- Logs and runtime ----
+*.log
+*.out
+*.err
+
+# ---- Jupyter notebook checkpoints ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Data & models ----
+# Ignore all large generated data, but keep small sample CSVs
+data/
+!data/race_results_2024.csv
+!data/features_2024.csv
+!data/simulated_standings_2025.csv
+
+# ---- Model artifacts ----
+*.pkl
+*.joblib
+*.model
+*.json
+
+# ---- Reports / exports ----
+*.html
+*.pdf
+*.zip
+*.tar.gz
+
+# ---- Unit test cache ----
+.pytest_cache/
+.coverage
+htmlcov/
