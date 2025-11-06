@@ -75,7 +75,7 @@ Option 2 — Run locally
 
 1. Clone the repo:
 
-git clone https://github.com/MRuahn17/f1-predictor.git
+git clone https://github.com/MRuhan17/f1-predictor.git
 cd f1-predictor
 
 
