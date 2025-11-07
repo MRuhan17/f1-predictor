@@ -13,7 +13,7 @@ Modules:
 """
 
 __version__ = "0.1.0"
-__author__ = "YOUR NAME"
+__author__ = "MULLA RUHULALEMEEN"
 
 # Re-export commonly used functions for easy importing
 from .data_loader import get_race_results
